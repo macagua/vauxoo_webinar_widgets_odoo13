@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="button_to_share" inherit_id="website_sale.product_item"
+              name="Share Button for Product item"
+              customize_show="True" name="Share it! Action">
+        <xpath expr="//div[hasclass('o_wsale_product_btn')]" position="inside">
+            <!--<div class="js-class d-inline" t-att-data-url="'/shop/product'"> here the data-url attribute is NOT a string -->            
+            <div class="js-class d-inline" t-attf-data-url="/shop/product/{{slug(product)}}"><!-- here the data-url attribute, it is a string -->
+                 <button class="btn btn-primary" type="button" role="button">
+                     <i class="fa fa-share-all" role="img" />
+                 </button>
+            </div>
+        </xpath>
+    </template>
+</odoo>
