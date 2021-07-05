@@ -15,17 +15,17 @@ This module is part of [Odoo Javascript tutorials](https://www.youtube.com/c/Vau
 - Odoo 13 CE version.
 
 
-## Enlaces mencionados
+## Links extras
 
-- [Herencia de vistas Odoo](https://www.odoo.com/documentation/13.0/developer/reference/views.html#inheritance-specs).
+- [Inheritance of Odoo views](https://www.odoo.com/documentation/13.0/developer/reference/views.html#inheritance-specs).
 
 - [Bundles](https://www.odoo.com/documentation/13.0/developer/reference/javascript_reference.html#assets-management).
 
-- [Ciclo de vida de los Widgets](https://www.odoo.com/documentation/13.0/developer/reference/javascript_reference.html#widget-lifecycle).
+- [Widgets life cycle](https://www.odoo.com/documentation/13.0/developer/reference/javascript_reference.html#widget-lifecycle).
 
-- [Herencia de modelos Python](https://www.odoo.com/documentation/13.0/developer/reference/orm.html#models).
+- [Python (Odoo) model inheritance](https://www.odoo.com/documentation/13.0/developer/reference/orm.html#models).
 
-- [Controladores](https://www.odoo.com/documentation/13.0/developer/reference/http.html).
+- [Odoo Controllers](https://www.odoo.com/documentation/13.0/developer/reference/http.html).
 
 - [Promesas JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 
