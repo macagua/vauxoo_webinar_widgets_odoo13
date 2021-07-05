@@ -16,10 +16,6 @@ odoo.define("vauxoo_webinar_widgets_odoo13.button", (require) => {
         },
         start () {
             this._super(...arguments);
-            /*this.el == 'HTMLElement' # provee el elemento adjunto al widget
-            this.el.value = ''
-            this.$el == 'JQuery'
-            this.$el.val()*/
             // ClipboardJS allows you to copy the product's URL to the clipboard
             new ClipboardJS(this.el, {
                 text: () => document.location.origin + this.el.dataset.url,
